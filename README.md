@@ -28,8 +28,8 @@ Our mission is to empower students to contribute their talents and expertise to 
 
 Are you a student eager to make a difference, or a nonprofit seeking support in areas like technology, strategy, or project management? Join Spire Pathways today!
 
-- [Sign Up]([sign-up.html](https://spirepathways.github.io/sign-up.html))
-- [Log In]([log-in.html](https://spirepathways.github.io/log-in.html))
+- [Sign Up](https://spirepathways.github.io/sign-up.html)
+- [Log In](https://spirepathways.github.io/log-in.html)
 
 ## Contact Us
 
