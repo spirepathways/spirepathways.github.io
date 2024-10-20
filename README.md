@@ -1,10 +1,10 @@
 # Spire Pathways
 
-**Spire Pathways** is an initiative dedicated to empowering students by providing opportunities for growth, skill development, and meaningful contributions to communities. We connect skilled students with nonprofits to help create transformative changes through technology, education, and innovative solutions.
+**Spire Pathways** is an initiative dedicated to empowering students by providing opportunities for growth, skill development, and meaningful contributions to communities. We connect skilled students with nonprofits and small local businesses to help create transformative changes through innovative technological solutions.
 
 ## Vision
 
-Spire Pathways envisions a world where students from diverse backgrounds can access resources, opportunities, and networks to realize their potential. We aim to bridge the gap between students and nonprofit organizations by leveraging skills in technology, business, and community service.
+Spire Pathways, formerly known as Synergy, envisions a world where students from diverse backgrounds can access resources, opportunities, and networks to realize their potential. We aim to bridge the gap for underrepresented students in the STEM industry by leveraging skills in technology, business, and community service.
 
 ## Mission
 
