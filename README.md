@@ -14,9 +14,9 @@ Our mission is to empower students to contribute their talents and expertise to 
 
 1. **Student Empowerment**: We provide platforms and projects for students to showcase and refine their skills in real-world applications, giving them hands-on experience in nonprofit collaboration.
 
-2. **Nonprofit Support**: Nonprofits benefit from the skills and innovative ideas of motivated students, gaining access to technology, strategy, and community-building support.
+2. **Nonprofit and Small Local Business Support**: Nonprofits and small local businesses benefit from the skills and innovative ideas of motivated students, gaining access to technology, strategy, and community-building support.
 
-3. **Community Transformation**: Through partnerships between students and nonprofits, we create sustainable initiatives that drive growth, inclusion, and progress in underserved communities.
+3. **Community Transformation**: Through partnerships between students and nonprofits and small local businesses, we create sustainable initiatives that drive growth, inclusion, and progress in underserved communities.
 
 ## Key Features
 
