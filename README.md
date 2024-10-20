@@ -8,7 +8,7 @@ Spire Pathways, formerly known as Synergy, envisions a world where students from
 
 ## Mission
 
-Our mission is to empower students to contribute their talents and expertise to support nonprofits, enhancing both personal and professional growth while positively impacting underserved communities. By fostering collaboration between students and organizations, we aim to create sustainable, impactful change.
+Our mission is to empower students to contribute their talents and expertise to support nonprofits and small local businesses, enhancing both personal and professional growth while positively impacting underserved communities. By fostering collaboration between students and organizations, we aim to create sustainable, impactful change.
 
 ## Core Objectives
 
