@@ -104,7 +104,7 @@ form button[type="submit"] {
 /* Adjust form responsiveness for different screen sizes */
 form .form-control-lg {
     padding: 20px;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 form button.btn-lg {
