@@ -1,80 +1,220 @@
 /* Global styles */
 * {
     box-sizing: border-box;
-  }
-  
-  /* Apply the Inter font globally */
-  body {
+}
+
+/* Apply the Inter font globally */
+body {
     font-family: 'Inter', sans-serif;
-  }
-  
-  /* Hero section background and overlay */
-  .hero {
+}
+
+/* Hero section background and overlay */
+.hero {
+    /* Replace 'hero.jpg' with the actual path to your image */
     background-image: url(hero.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
+    /* Ensure hero section takes up the full height minus header & email height */
     min-height: calc(100vh - 100px);
-  }
-  
-  .overlay {
+}
+
+/* Dark overlay on top of hero image */
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
-  }
+}
 
-  /* Email section */
-  .text-left.py-2 a {
+/* Email section styling */
+.text-left.py-2 a {
     font-size: 0.9rem;
-    text-decoration: none; 
+    text-decoration: none;
     color: #27a1e2;
-  }
-  
-  .container.text-center.py-2 a:hover {
+}
+
+/* Hover effect for email link */
+.text-left.py-2 a:hover {
     color: #222;
-  }
-  
-  /* Navbar link styling */
-  .navbar-nav .nav-link {
-    color: #222;
-  }
-  
-  .navbar-nav .nav-link:hover {
-    color: #007bff;
-  }
-  
-  /* Logo styling */
-  .logo h1 {
-    color: #222;
-    font-family: 'Inter', sans-serif;
-    font-weight: bold;
-  }
-  
-  /* Button styling */
-  .btn-primary {
+}
+
+/* Navbar link styling */
+.navbar-nav .nav-link {
+    color: #222; /* Dark text for navbar links */
+}
+
+/* Hover effect for navbar links */
+.navbar-nav .nav-link:hover {
+    color: #27a1e2; /* Bootstrap default link color on hover */
+}
+
+/* Button styling */
+.btn-primary {
     background-color: #279FE2;
     border-color: #279FE2;
-    border-radius: 25px;
+    border-radius: 25px; /* Rounded corners for buttons */
     font-size: 1rem;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
-  }
-  .btn-primary:hover {
-    background-color: #27a1e2;
+}
+
+.btn-primary:hover {
+    background-color: #27a1e2; /* Lighter shade on hover */
     border-color: #279FE2;
-  }
-  .btn-secondary {
+}
+
+.btn-secondary {
     background-color: #E27627;
     border-color: #E27627;
     border-radius: 25px;
     font-size: 1rem;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
-  }
-  .btn-secondary:hover {
+}
+
+.btn-secondary:hover {
     background-color: #E27627;
     border-color: #E27627;
-  }
+}
+
+/* Join Our Network Section */
+.join-network h2 {
+    color: #27a1e2; /* Accent color for heading */
+}
+
+.join-network p {
+    font-size: 1.25rem; /* Slightly larger text for description */
+    font-weight: 300; /* Light font weight */
+}
+
+/* Styling for the newsletter form */
+form input[type="email"] {
+    border-radius: 25px; /* Rounded corners for the email input */
+    padding: 15px;
+    font-size: 1rem;
+}
+
+form button[type="submit"] {
+    border-radius: 25px; /* Rounded corners for the submit button */
+}
+
+/* Adjust form responsiveness for different screen sizes */
+form .form-control-lg {
+    padding: 20px;
+    font-size: 1.1rem;
+}
+
+form button.btn-lg {
+    padding: 12px 30px;
+    font-size: 1.1rem;
+}
+
+/* Optional message styling for form feedback */
+#formMessage {
+    font-size: 1rem;
+    color: #27a1e2; /* Feedback message color */
+}
+
+/* Sign-Up Form and Log-In Form Styling */
+.signup-section, .signin-section {
+    background-color: white; /* Consistent white background */
+    min-height: 90vh; /* Ensure it takes up most of the screen height */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    padding: 20px;
+}
+
+.signup-section h2, .signin-section h2 {
+    color: #27a1e2; /* Accent color for heading */
+    font-weight: 600;
+}
+
+.signup-section .form-control, .signin-section .form-control {
+    border-radius: 10px; /* Rounded input fields */
+    padding: 15px;
+}
+
+.signup-section .btn-primary, .signin-section .btn-primary {
+    border-radius: 25px; /* Rounded corners for the sign-up and log-in buttons */
+    padding: 10px 20px;
+}
+
+.signup-section .form-label, .signin-section .form-label {
+    font-weight: 500;
+    color: #333;
+}
+
+.signup-section p, .signin-section p {
+    font-size: 0.9rem;
+}
+
+.signup-section a, .signin-section a {
+    color: #27a1e2;
+    text-decoration: none;
+}
+
+.signup-section a:hover, .signin-section a:hover {
+    text-decoration: underline;
+}
+
+/* Back arrow styling */
+.signup-section a.text-primary, .signin-section a.text-primary {
+    font-size: 1.1rem;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.signup-section a.text-primary:hover, .signin-section a.text-primary:hover {
+    color: #007bff;
+}
+
+/* Loading Spinner Overlay */
+.spinner-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8); /* White overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Ensure it's above other elements */
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
+/* Footer */
+.footer {
+    background-color: #222; /* Dark background for footer */
+    color: #fff; /* White text */
+}
+
+/* Footer links */
+.footer ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+/* Footer link hover effect */
+.footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    color: #27a1e2; /* Light blue color on hover */
+}

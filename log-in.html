@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log In - Spire Pathways</title>
+
+  <!-- Google Font: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: white;">
+
+  <!-- Back Arrow and Sign In Form Section -->
+  <section class="signin-section py-5 d-flex align-items-center">
+    <div class="container">
+      <!-- Back Arrow - Consistent positioning -->
+      <div class="mb-4">
+        <a href="index.html" class="text-black" style="text-decoration: none;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16" style="padding-right: 4px;">
+            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 1-.5.5H3.707l3.147 3.146a.5.5 0 0 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 0 1 .708.708L3.707 7.5H14.5A.5.5 0 0 1 15 8z"/>
+          </svg>
+        Back
+        </a>
+      </div>
+
+      <!-- Sign In Form -->
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6">
+          <h2 class="text-center mb-4" style="color: #27a1e2;">Sign In</h2>
+          <form>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address <span class="text-danger">*</span></label>
+              <input type="email" class="form-control rounded" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="mb-5">
+              <label for="password" class="form-label">Password <span class="text-danger">*</span></label>
+              <input type="password" class="form-control rounded" id="password" placeholder="Enter your password" required>
+            </div>
+            <div class="d-grid mb-3">
+              <button type="submit" class="btn btn-primary btn-lg rounded">Log In</button>
+            </div>
+          </form>
+
+          <!-- Sign-Up Link -->
+          <div class="text-center mt-3">
+            <p>Don't have an account? <a href="sign-up.html" class="">Sign Up</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
