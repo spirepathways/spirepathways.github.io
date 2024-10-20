@@ -1,0 +1,75 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Apply the Inter font globally */
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  /* Hero section background and overlay */
+  .hero {
+    background-image: url(hero.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 100vh
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  /* Email section */
+  .container.text-center.py-2 a {
+    color: #6c757d;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .container.text-center.py-2 a:hover {
+    color: #333;
+  }
+  
+  /* Navbar link styling */
+  .navbar-nav .nav-link {
+    color: #333;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff;
+  }
+  
+  /* Logo styling */
+  .logo h1 {
+    color: #333;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+  }
+  
+  /* Button styling */
+  .btn-primary {
+    background-color: #279FE2;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+  }
+  .btn-primary:hover {
+    background-color: #27a1e2;
+  }
+  .btn-secondary {
+    background-color: #E27627;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+  }
+  .btn-secondary:hover {
+    background-color: #E27627;
+  }
+  .btn-secondary:click {
+    background-color: #E27627;
+  }
